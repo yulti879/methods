@@ -1,4 +1,4 @@
-import { healthIndicator } from "../../health";
+import { healthIndicator } from "../health";
 
 test('character with health of 51 should be healthy', () => {
     expect(healthIndicator({ name: 'Маг', health: 51 })).toBe('healthy');

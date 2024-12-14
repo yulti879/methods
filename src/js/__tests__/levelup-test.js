@@ -1,8 +1,8 @@
-import { Zombie } from "../../characters";
+import { Zombie } from "../characters.js";
 
 const character = new Zombie('aБ');
 
-test('level up at 0 health should throw an error', () => {
+test('level up at 0 health should throw an error', () => {    
     character.health = 0;    
     expect(() => character.levelUp()).toThrow('Нельзя повысить левел умершего');
 });

@@ -1,4 +1,4 @@
-import { sortCharactersByHealth } from "../../sort";
+import { sortCharactersByHealth } from "../sort";
 
 test('characters should be sorted by health in descending order', () => {
 

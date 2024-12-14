@@ -1,6 +1,6 @@
-import Character from "../../parent-character";
+import Character from "../parent-character";
 
-import { Bowman, Swordsman, Magician, Undead, Zombie, Daemon } from "../../characters";
+import { Bowman, Swordsman, Magician, Undead, Zombie, Daemon } from "../characters";
 
 test('Character with invalid type should throw an error', () => {
     expect(() => new Character('aБ', 'невесть кто')).toThrow('Некорректный тип персонажа');
